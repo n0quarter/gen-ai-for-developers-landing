@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Zap, Tool, Brain, Rocket } from "lucide-react";
+import { Zap, Brain, Rocket, ArrowRight } from "lucide-react";
 
 const benefits = [
   {
@@ -10,7 +10,7 @@ const benefits = [
   {
     title: "Real-world Applications",
     description: "Practice with actual development scenarios and challenges",
-    icon: <Tool className="h-6 w-6 text-primary" />,
+    icon: <ArrowRight className="h-6 w-6 text-primary" />,
   },
   {
     title: "AI-Powered Problem Solving",
