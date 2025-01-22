@@ -9,7 +9,7 @@ const heroContent = {
   title: "Generative AI for Developers",
   description: "Increase your productivity by mastering modern AI tools like Cursor, GitHub Copilot, ChatGPT, Claude, and Gemini. Learn advanced prompting techniques, IDE integrations, and best practices for AI-powered development workflows.",
   cta: {
-    text: "Join Workshop",
+    text: "Contact for Team Pricing",
   },
   image: {
     src: "/start.jpeg",

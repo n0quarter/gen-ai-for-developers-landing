@@ -82,48 +82,79 @@ const Index = () => {
       </div>
 
       {/* CTA Section */}
-      <div className="bg-secondary py-16 px-6 sm:px-8 lg:px-12">
-        <div className="mx-auto max-w-7xl text-center">
-          <h2 className="text-3xl font-bold text-white mb-6 animate-fade-up">Ready to Transform Your Development Workflow?</h2>
-          <p className="text-lg text-gray-300 mb-8 animate-fade-up [animation-delay:200ms] max-w-2xl mx-auto">
-            Join the workshop to master AI-powered development tools and techniques that will revolutionize your coding experience.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up [animation-delay:400ms]">
-            <Button size="lg" className="w-full sm:w-auto">
-              <RocketIcon className="mr-2 h-5 w-5" />
-              Register Now
-            </Button>
-            <Button size="lg" variant="outline" className="w-full sm:w-auto bg-transparent text-white hover:bg-white/10">
-              <MailIcon className="mr-2 h-5 w-5" />
-              Contact for Team Pricing
-            </Button>
+      <div className="bg-secondary py-5">
+        <div className="mx-auto max-w-3xl px-6">
+          <div className="bg-secondary/50 rounded-2xl p-8">
+            <h2 className="text-3xl font-bold text-white text-center mb-10 animate-fade-up">
+              Choose Your Learning Path
+            </h2>
+
+            <div className="space-y-6 mb-12 animate-fade-up [animation-delay:200ms]">
+
+              <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-white/5 transition-colors">
+                <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
+                <div>
+                  <span className="text-white font-medium">Start Your AI Journey</span>
+                  <p className="text-gray-300 mt-1">Book Block 1 to master the fundamentals of AI-assisted development</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-white/5 transition-colors">
+                <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
+                <div>
+                  <span className="text-white font-medium">Advanced Skills</span>
+                  <p className="text-gray-300 mt-1">Book Block 2 to elevate your existing AI development practices</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-white/5 transition-colors">
+                <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
+                <div>
+                  <span className="text-white font-medium">Complete Journey</span>
+                  <p className="text-gray-300 mt-1">Book both blocks for comprehensive training from basics to advanced practices</p>
+                </div>
+              </div>
+
+            </div>
+
+            <div className="flex justify-center animate-fade-up [animation-delay:400ms]">
+              <Button
+                size="lg"
+                className="px-8 shadow-lg hover:shadow-primary/20 transition-shadow"
+              >
+                <RocketIcon className="mr-2 h-5 w-5" />
+                Contact for Team Pricing
+              </Button>
+            </div>
           </div>
         </div>
       </div>
 
       {/* About Author Section */}
-      <div className="py-16 px-6 sm:px-8 lg:px-12 bg-gray-50">
+      <div className="py-24 px-6 sm:px-8 lg:px-12 bg-gray-50">
         <div className="mx-auto max-w-7xl">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="animate-fade-up">
-              <img
-                src="/viktor.png"
-                alt="Viktor Shcherban"
-                className="rounded-lg shadow-xl w-full max-w-md mx-auto"
-              />
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            <div className="lg:col-span-5 animate-fade-up">
+              <div className="relative">
+                <div className="absolute -inset-2 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-lg blur-lg" />
+                <img
+                  src="/viktor.png"
+                  alt="Viktor Shcherban"
+                  className="relative rounded-lg shadow-xl w-full max-w-md mx-auto"
+                />
+              </div>
             </div>
-            <div className="space-y-6">
-              <h2 className="text-3xl font-bold animate-fade-up">About the Author</h2>
-              <div className="space-y-4">
-                <p className="text-lg text-gray-600 animate-fade-up [animation-delay:200ms]">
-                Viktor Shcherban is an experienced AI developer and enthusiast who has been at the forefront of AI-powered development since 2021. As an early adopter of AI development tools, he has extensive experience with GitHub Copilot, ChatGPT, Claude, and other AI assistants since their technical preview phases.
+            <div className="lg:col-span-7 space-y-8">
+              <h2 className="text-4xl font-bold animate-fade-up">About the Author</h2>
+              <div className="space-y-6">
+                <p className="text-lg text-gray-600 animate-fade-up [animation-delay:200ms] leading-relaxed">
+                  Viktor Shcherban is an experienced AI developer and enthusiast who has been at the forefront of AI-powered development since 2021. As an early adopter of AI development tools, he has extensive experience with GitHub Copilot, ChatGPT, Claude, and other AI assistants since their technical preview phases.
                 </p>
-                <p className="text-lg text-gray-600 animate-fade-up [animation-delay:400ms]">
-                With over <strong>2,800 hours of AI-assisted development</strong>, Viktor combines deep technical expertise with real-world implementation experience. As an AI consultant and former startup CTO, he has architected and deployed AI solutions across various industries. His development workflow is enhanced by custom AI-powered developer tools he created, which streamline common tasks and optimize AI interactions. A regular speaker at Berlin's AI conferences and meetups, Viktor shares insights from his work in both enterprise AI integration and startup innovation.
+                <p className="text-lg text-gray-600 animate-fade-up [animation-delay:400ms] leading-relaxed">
+                  With over <span className="text-primary font-semibold">2,800 hours of AI-assisted development</span>, Viktor combines deep technical expertise with real-world implementation experience. As an AI consultant and former startup CTO, he has architected and deployed AI solutions across various industries. His development workflow is enhanced by custom AI-powered developer tools he created, which streamline common tasks and optimize AI interactions. A regular speaker at Berlin's AI conferences and meetups, Viktor shares insights from his work in both enterprise AI integration and startup innovation.
                 </p>
               </div>
-              <div className="pt-6 animate-fade-up [animation-delay:600ms]">
-                <Button size="lg" variant="secondary"
+              <div className="pt-4 animate-fade-up [animation-delay:600ms]">
+                <Button size="lg" variant="secondary" className="px-8"
                 onClick={() => window.open("https://www.linkedin.com/in/shcherbanviktor/", "_blank")}>
                   <Linkedin className="mr-2 h-5 w-5" />
                   Learn More About Viktor
