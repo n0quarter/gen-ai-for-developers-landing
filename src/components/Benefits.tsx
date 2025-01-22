@@ -3,7 +3,7 @@ import { Zap, Brain, Rocket, Code, Terminal, Sparkles } from "lucide-react";
 
 const benefits = [
   {
-    title: "Comprehensive AI Tool Coverage",
+    title: "Modern AI Development Stack",
     description: "Deep dive into GitHub Copilot, ChatGPT-4, Claude, Gemini, and more cutting-edge AI development tools",
     icon: <Zap className="h-6 w-6 text-primary" />,
   },
@@ -29,7 +29,7 @@ const benefits = [
   },
   {
     title: "Future-Ready Skills",
-    description: "Stay ahead with emerging technologies like vector storage and advanced model capabilities",
+    description: "Techniques for AI-assisted technology learning and maintaining best practices in your development workflow",
     icon: <Rocket className="h-6 w-6 text-primary" />,
   },
 ];
@@ -38,7 +38,7 @@ export const Benefits = () => {
   return (
     <div className="py-16 px-6 sm:px-8 lg:px-12 bg-gray-50">
       <div className="mx-auto max-w-7xl">
-        <h2 className="text-3xl font-bold text-center mb-12">Workshop Benefits</h2>
+        <h2 className="text-3xl font-bold text-center mb-12">You will learn</h2>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {benefits.map((benefit, index) => (
             <Card key={index} className="animate-fade-up [animation-delay:200ms] hover:shadow-lg transition-shadow duration-300">

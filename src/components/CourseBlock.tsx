@@ -16,12 +16,12 @@ interface CourseBlockProps {
 
 export const CourseBlock = ({ title, focus, activities }: CourseBlockProps) => {
   return (
-    <Card className="animate-fade-up hover:shadow-lg transition-shadow duration-300">
+    <Card className="animate-fade-up hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
       <CardHeader>
         <CardTitle className="text-2xl">{title}</CardTitle>
         <CardDescription className="text-lg">{focus}</CardDescription>
       </CardHeader>
-      <CardContent>
+      <CardContent className="flex-1">
         <div className="space-y-4">
           {activities.map((activity, index) => (
             <div key={index} className="flex items-start space-x-4 p-4 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors duration-200">
