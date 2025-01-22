@@ -11,7 +11,7 @@ export const Hero = () => {
               Generative AI for Developers
             </h1>
             <p className="animate-fade-up mt-6 text-lg text-gray-300">
-              Master the art of AI-powered development. Learn to leverage tools like GitHub Copilot and ChatGPT to supercharge your coding workflow.
+              Master cutting-edge AI tools like GitHub Copilot, ChatGPT, Claude, and Gemini. Learn advanced prompting techniques, IDE integrations, and best practices for AI-powered development workflows.
             </p>
             <div className="mt-8 sm:mb-8 sm:flex sm:justify-center lg:justify-start">
               <Button size="lg" className="animate-fade-up [animation-delay:200ms] w-full sm:w-auto">

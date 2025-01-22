@@ -24,7 +24,7 @@ export const CourseBlock = ({ title, focus, activities }: CourseBlockProps) => {
       <CardContent>
         <div className="space-y-4">
           {activities.map((activity, index) => (
-            <div key={index} className="flex items-start space-x-4 p-4 rounded-lg bg-gray-50">
+            <div key={index} className="flex items-start space-x-4 p-4 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors duration-200">
               <div className="flex-shrink-0">{activity.icon}</div>
               <div>
                 <h4 className="font-medium">{activity.title}</h4>
