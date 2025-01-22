@@ -29,7 +29,7 @@ export const Hero = () => {
           </div>
           <div className="mt-16 sm:mt-24 lg:col-span-6 lg:mt-0">
             <img
-              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+              src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
               alt="AI Development Workshop"
               className="animate-fade-up [animation-delay:400ms] rounded-lg shadow-xl"
             />
