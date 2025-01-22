@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { RocketIcon } from "lucide-react";
+import { RocketIcon, UserIcon } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -7,9 +7,16 @@ export const Hero = () => {
       <div className="mx-auto max-w-7xl">
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <div className="sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:text-left">
+            <div className="flex items-center space-x-2 mb-6 justify-center lg:justify-start animate-fade-down">
+              <UserIcon className="h-5 w-5 text-primary" />
+              <p className="text-sm text-primary font-medium">Workshop by Viktor Shcherban</p>
+            </div>
             <h1 className="animate-fade-down text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
               Generative AI for Developers
             </h1>
+            <p className="animate-fade-up mt-4 text-sm text-gray-400 italic">
+              "As an AI developer and enthusiast since mid-2021, I've been at the forefront of AI-powered development, working with tools like GitHub Copilot and various AI assistants since their technical preview phases."
+            </p>
             <p className="animate-fade-up mt-6 text-lg text-gray-300">
               Master cutting-edge AI tools like GitHub Copilot, ChatGPT, Claude, and Gemini. Learn advanced prompting techniques, IDE integrations, and best practices for AI-powered development workflows.
             </p>
