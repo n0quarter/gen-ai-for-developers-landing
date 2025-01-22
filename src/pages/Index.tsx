@@ -17,19 +17,19 @@ const Index = () => {
     {
       title: "Modern AI Tools",
       description: "Overview of Copilot, Claude, ChatGPT, and specialized tools",
-      duration: "30 minutes",
+      duration: "45 minutes",
       icon: <Users className="h-6 w-6 text-primary" />,
     },
     {
       title: "AI Fundamentals",
       description: "Transformer architecture and effective prompting techniques",
-      duration: "45 minutes",
+      duration: "60 minutes",
       icon: <Brain className="h-6 w-6 text-primary" />,
     },
     {
       title: "Development Workshop",
       description: "Project creation and hands-on AI-assisted development",
-      duration: "90 minutes",
+      duration: "105 minutes",
       icon: <Code className="h-6 w-6 text-primary" />,
     },
     {
@@ -44,19 +44,19 @@ const Index = () => {
     {
       title: "Advanced Tools",
       description: "Deep dive into enterprise features and team collaboration",
-      duration: "30 minutes",
+      duration: "45 minutes",
       icon: <Users className="h-6 w-6 text-primary" />,
     },
     {
       title: "AI Integration",
       description: "Multi-step prompting and team workflow patterns",
-      duration: "45 minutes",
+      duration: "60 minutes",
       icon: <Brain className="h-6 w-6 text-primary" />,
     },
     {
       title: "Project Enhancement",
       description: "Custom tooling and AI-assisted codebase optimization",
-      duration: "90 minutes",
+      duration: "105 minutes",
       icon: <Code className="h-6 w-6 text-primary" />,
     },
     {
@@ -77,12 +77,12 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 px-4">
             <CourseBlock
               title="Block 1: AI Tools and Application Development"
-              focus="Master modern AI development tools and fundamental concepts through hands-on practice"
+              focus="Master modern AI development tools and fundamental concepts through hands-on practice - 4 hours"
               activities={block1Activities}
             />
             <CourseBlock
               title="Block 2: Advanced Applications and Learning"
-              focus="Implement sophisticated AI techniques and team collaboration patterns"
+              focus="Implement sophisticated AI techniques and team collaboration patterns - 4 hours"
               activities={block2Activities}
             />
           </div>
