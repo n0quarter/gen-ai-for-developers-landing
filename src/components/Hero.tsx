@@ -1,6 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { RocketIcon, UserIcon } from "lucide-react";
 
+interface HeroProps {
+  onContactClick: () => void;
+}
+
 const heroContent = {
   author: {
     name: "Viktor Shcherban",
@@ -17,7 +21,7 @@ const heroContent = {
   },
 };
 
-export const Hero = () => {
+export const Hero = ({ onContactClick }: HeroProps) => {
   return (
     <div className="relative bg-secondary py-20 px-6 sm:px-8 lg:px-12">
       <div className="mx-auto max-w-7xl">
@@ -34,7 +38,11 @@ export const Hero = () => {
               {heroContent.description}
             </p>
             <div className="mt-8 sm:mb-8 sm:flex sm:justify-center lg:justify-start">
-              <Button size="lg" className="animate-fade-up [animation-delay:200ms] w-full sm:w-auto">
+              <Button
+                size="lg"
+                className="animate-fade-up [animation-delay:200ms] w-full sm:w-auto"
+                onClick={onContactClick}
+              >
                 <RocketIcon className="mr-2 h-5 w-5" />
                 {heroContent.cta.text}
               </Button>

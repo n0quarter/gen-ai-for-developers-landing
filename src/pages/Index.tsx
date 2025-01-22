@@ -1,10 +1,18 @@
 import { Hero } from "@/components/Hero";
 import { Benefits } from "@/components/Benefits";
 import { CourseBlock } from "@/components/CourseBlock";
+import { ContactForm } from "@/components/ContactForm";
 import { Button } from "@/components/ui/button";
-import { Brain, Users, Code, Clock, RocketIcon, MailIcon, Linkedin } from "lucide-react";
+import { Brain, Users, Code, Clock, Linkedin } from "lucide-react";
+import { useRef } from "react";
 
 const Index = () => {
+  const contactFormRef = useRef<HTMLDivElement>(null);
+
+  const scrollToContact = () => {
+    contactFormRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   const block1Activities = [
     {
       title: "Modern AI Tools",
@@ -61,7 +69,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <Hero />
+      <Hero onContactClick={scrollToContact} />
       <Benefits />
       <div className="py-16 px-6 sm:px-8 lg:px-12">
         <div className="mx-auto max-w-7xl">
@@ -82,48 +90,49 @@ const Index = () => {
       </div>
 
       {/* CTA Section */}
-      <div className="bg-secondary py-5">
-        <div className="mx-auto max-w-3xl px-6">
-          <div className="bg-secondary/50 rounded-2xl p-8">
-            <h2 className="text-3xl font-bold text-white text-center mb-10 animate-fade-up">
-              Choose Your Learning Path
-            </h2>
+      <div className="bg-secondary py-16">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="bg-secondary/50 rounded-2xl p-8">
+              <h2 className="text-3xl font-bold text-white text-center mb-10 animate-fade-up">
+                Choose Your Learning Path
+              </h2>
 
-            <div className="space-y-6 mb-12 animate-fade-up [animation-delay:200ms]">
-
-              <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-white/5 transition-colors">
-                <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-                <div>
-                  <span className="text-white font-medium">Start Your AI Journey</span>
-                  <p className="text-gray-300 mt-1">Book Block 1 to master the fundamentals of AI-assisted development</p>
+              <div className="space-y-6 mb-12 animate-fade-up [animation-delay:200ms]">
+                <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-white/5 transition-colors">
+                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
+                  <div>
+                    <span className="text-white font-medium">Start Your AI Journey</span>
+                    <p className="text-gray-300 mt-1">Book Block 1 to master the fundamentals of AI-assisted development</p>
+                  </div>
                 </div>
-              </div>
 
-              <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-white/5 transition-colors">
-                <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-                <div>
-                  <span className="text-white font-medium">Advanced Skills</span>
-                  <p className="text-gray-300 mt-1">Book Block 2 to elevate your existing AI development practices</p>
+                <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-white/5 transition-colors">
+                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
+                  <div>
+                    <span className="text-white font-medium">Advanced Skills</span>
+                    <p className="text-gray-300 mt-1">Book Block 2 to elevate your existing AI development practices</p>
+                  </div>
                 </div>
-              </div>
-              <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-white/5 transition-colors">
-                <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-                <div>
-                  <span className="text-white font-medium">Complete Journey</span>
-                  <p className="text-gray-300 mt-1">Book both blocks for comprehensive training from basics to advanced practices</p>
+
+                <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-white/5 transition-colors">
+                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
+                  <div>
+                    <span className="text-white font-medium">Complete Journey</span>
+                    <p className="text-gray-300 mt-1">Book both blocks for comprehensive training from basics to advanced practices</p>
+                  </div>
                 </div>
               </div>
 
             </div>
 
-            <div className="flex justify-center animate-fade-up [animation-delay:400ms]">
-              <Button
-                size="lg"
-                className="px-8 shadow-lg hover:shadow-primary/20 transition-shadow"
-              >
-                <RocketIcon className="mr-2 h-5 w-5" />
-                Contact for Team Pricing
-              </Button>
+            <div ref={contactFormRef} className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
+              <h2 className="text-3xl font-bold text-white text-center mb-8 animate-fade-up">
+                Get in Touch
+              </h2>
+              <div className="animate-fade-up [animation-delay:200ms]">
+                <ContactForm />
+              </div>
             </div>
           </div>
         </div>
