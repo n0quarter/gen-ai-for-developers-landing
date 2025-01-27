@@ -6,10 +6,10 @@ interface HeroProps {
 }
 
 const heroContent = {
-  author: {
-    name: "Viktor Shcherban",
-    role: "Workshop by",
-  },
+  // author: {
+  //   name: "Viktor Shcherban",
+  //   role: "Workshop by",
+  // },
   title: "Generative AI for Developers",
   description: "Increase your productivity by mastering modern AI tools like Cursor, GitHub Copilot, ChatGPT, Claude, and Gemini. Learn advanced prompting techniques, IDE integrations, and best practices for AI-powered development workflows.",
   cta: {
@@ -21,16 +21,16 @@ const heroContent = {
   },
 };
 
-export const Hero = ({ onContactClick }: HeroProps) => {
+export const Header = ({ onContactClick }: HeroProps) => {
   return (
     <div className="relative bg-secondary py-20 px-6 sm:px-8 lg:px-12">
       <div className="mx-auto max-w-7xl">
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <div className="sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:text-left">
-            <div className="flex items-center space-x-2 mb-6 justify-center lg:justify-start animate-fade-down">
+            {/* <div className="flex items-center space-x-2 mb-6 justify-center lg:justify-start animate-fade-down">
               <UserIcon className="h-5 w-5 text-primary" />
               <p className="text-sm text-primary font-medium">{heroContent.author.role} {heroContent.author.name}</p>
-            </div>
+            </div> */}
             <h1 className="animate-fade-down text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
               {heroContent.title}
             </h1>

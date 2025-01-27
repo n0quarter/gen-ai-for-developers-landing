@@ -1,4 +1,4 @@
-import { Hero } from "@/components/Hero";
+import { Header } from "@/components/Header";
 import { Benefits } from "@/components/Benefits";
 import { CourseBlock } from "@/components/CourseBlock";
 import { ContactForm } from "@/components/ContactForm";
@@ -15,8 +15,8 @@ const Index = () => {
 
   const block1Activities = [
     {
-      title: "Modern AI Tools",
-      description: "Overview of Copilot, Claude, ChatGPT, and specialized tools",
+      title: "Advanced Tools",
+      description: "Deep dive into enterprise features and team collaboration",
       duration: "45 minutes",
       icon: <Users className="h-6 w-6 text-primary" />,
     },
@@ -42,8 +42,8 @@ const Index = () => {
 
   const block2Activities = [
     {
-      title: "Advanced Tools",
-      description: "Deep dive into enterprise features and team collaboration",
+      title: "Modern AI Tools",
+      description: "Overview of Copilot, Claude, ChatGPT, and specialized tools",
       duration: "45 minutes",
       icon: <Users className="h-6 w-6 text-primary" />,
     },
@@ -69,7 +69,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <Hero onContactClick={scrollToContact} />
+      <Header onContactClick={scrollToContact} />
       <Benefits />
       <div className="py-16 px-6 sm:px-8 lg:px-12">
         <div className="mx-auto max-w-7xl">
