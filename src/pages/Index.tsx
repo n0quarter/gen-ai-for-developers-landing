@@ -15,8 +15,8 @@ const Index = () => {
 
   const block1Activities = [
     {
-      title: "Advanced Tools",
-      description: "Deep dive into enterprise features and team collaboration",
+      title: "Modern AI Tools",
+      description: "Overview of Copilot, Claude, ChatGPT, and specialized tools",
       duration: "45 minutes",
       icon: <Users className="h-6 w-6 text-primary" />,
     },
@@ -42,8 +42,8 @@ const Index = () => {
 
   const block2Activities = [
     {
-      title: "Modern AI Tools",
-      description: "Overview of Copilot, Claude, ChatGPT, and specialized tools",
+      title: "Advanced Tools",
+      description: "Deep dive into enterprise features and team collaboration",
       duration: "45 minutes",
       icon: <Users className="h-6 w-6 text-primary" />,
     },

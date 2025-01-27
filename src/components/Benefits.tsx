@@ -3,14 +3,14 @@ import { Zap, Brain, Rocket, Code, Terminal, Sparkles } from "lucide-react";
 
 const benefits = [
   {
-    title: "Modern AI Development Stack",
-    description: "Deep dive into GitHub Copilot, ChatGPT-4, Claude, Gemini, and more cutting-edge AI development tools",
-    icon: <Zap className="h-6 w-6 text-primary" />,
-  },
-  {
     title: "Advanced Prompting Techniques",
     description: "Master Chain-of-Thought, Tree-of-Thought, and reflection-based prompting strategies",
     icon: <Brain className="h-6 w-6 text-primary" />,
+  },
+  {
+    title: "Modern AI Development Stack",
+    description: "Deep dive into GitHub Copilot, ChatGPT-4, Claude, Gemini, and more cutting-edge AI development tools",
+    icon: <Zap className="h-6 w-6 text-primary" />,
   },
   {
     title: "IDE Mastery",
