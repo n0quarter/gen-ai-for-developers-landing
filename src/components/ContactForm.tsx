@@ -15,7 +15,7 @@ export const ContactForm = () => {
     // The form will be handled by FormSubmit.co
     try {
       const formData = new FormData(e.currentTarget);
-      await fetch("https://formsubmit.co/megaletterbox@gmail.com", {
+      await fetch("https://formsubmit.co/a7a7c90997288276a8748c38fbfaac24", {
         method: "POST",
         body: formData,
       });
