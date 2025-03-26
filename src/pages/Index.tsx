@@ -29,7 +29,7 @@ const Index = () => {
     },
     {
       title: "Part 3: Practice and Wrap-up",
-      description: "Real-world workflow demonstrations and tool selection strategy",
+      description: "Real-world workflow demonstrations and building a simple app with AI",
       duration: "60 minutes",
       icon: <Users className="h-6 w-6 text-primary" />,
     },
@@ -44,13 +44,13 @@ const Index = () => {
     },
     {
       title: "Part 2: Advanced AI-augmented Development",
-      description: "Building a poll app and exploring the AI development landscape",
+      description: "Building a simple app and exploring the AI development landscape (tool selection strategy)",
       duration: "80 minutes",
       icon: <Code className="h-6 w-6 text-primary" />,
     },
     {
-      title: "Part 3: Practice and anti-patterns",
-      description: "TDD practice, project iteration, and anti-pattern discussion",
+      title: "Part 3: Practice and patterns",
+      description: "TDD practice, project iteration, patterns and anti-patterns discussion",
       duration: "60 minutes",
       icon: <Users className="h-6 w-6 text-primary" />,
     },
