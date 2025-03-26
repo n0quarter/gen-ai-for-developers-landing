@@ -16,55 +16,43 @@ const Index = () => {
 
   const block1Activities = [
     {
-      title: "Modern AI Tools",
-      description: "Overview of Copilot, Claude, ChatGPT, and specialized tools",
-      duration: "45 minutes",
-      icon: <Users className="h-6 w-6 text-primary" />,
-    },
-    {
-      title: "AI Fundamentals",
-      description: "Transformer architecture and effective prompting techniques",
-      duration: "60 minutes",
+      title: "Part 1: Introduction and Fundamentals",
+      description: "AI landscape, core concepts, and interactive AI interviews",
+      duration: "80 minutes",
       icon: <Brain className="h-6 w-6 text-primary" />,
     },
     {
-      title: "Development Workshop",
-      description: "Project creation and hands-on AI-assisted development",
-      duration: "105 minutes",
+      title: "Part 2: Core Concepts",
+      description: "Prompt engineering techniques and Cursor AI setup",
+      duration: "80 minutes",
       icon: <Code className="h-6 w-6 text-primary" />,
     },
     {
-      title: "Conclusions",
-      description: "Key learnings review, Q&A session",
-      duration: "30 minutes",
-      icon: <Clock className="h-6 w-6 text-primary" />,
+      title: "Part 3: Practice and Wrap-up",
+      description: "Real-world workflow demonstrations and tool selection strategy",
+      duration: "60 minutes",
+      icon: <Users className="h-6 w-6 text-primary" />,
     },
   ];
 
   const block2Activities = [
     {
-      title: "Advanced Tools",
-      description: "Deep dive into enterprise features and team collaboration",
-      duration: "45 minutes",
-      icon: <Users className="h-6 w-6 text-primary" />,
-    },
-    {
-      title: "AI Integration",
-      description: "Multi-step prompting and team workflow patterns",
-      duration: "60 minutes",
+      title: "Part 1: Recap and Coding with Cursor",
+      description: "Block 1 recap and advanced Cursor features exploration",
+      duration: "80 minutes",
       icon: <Brain className="h-6 w-6 text-primary" />,
     },
     {
-      title: "Project Enhancement",
-      description: "Custom tooling and AI-assisted codebase optimization",
-      duration: "105 minutes",
+      title: "Part 2: Advanced AI-augmented Development",
+      description: "Building a poll app and exploring the AI development landscape",
+      duration: "80 minutes",
       icon: <Code className="h-6 w-6 text-primary" />,
     },
     {
-      title: "Workshop Takeaways & Integration",
-      description: "Best practices and continued learning roadmap",
-      duration: "30 minutes",
-      icon: <Clock className="h-6 w-6 text-primary" />,
+      title: "Part 3: Practice and anti-patterns",
+      description: "TDD practice, project iteration, and anti-pattern discussion",
+      duration: "60 minutes",
+      icon: <Users className="h-6 w-6 text-primary" />,
     },
   ];
 
