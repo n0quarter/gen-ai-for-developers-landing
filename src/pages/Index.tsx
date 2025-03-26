@@ -2,6 +2,7 @@ import { Header } from "@/components/Header";
 import { Benefits } from "@/components/Benefits";
 import { CourseBlock } from "@/components/CourseBlock";
 import { ContactForm } from "@/components/ContactForm";
+import { Testimonials } from "@/components/Testimonials";
 import { Button } from "@/components/ui/button";
 import { Brain, Users, Code, Clock, Linkedin } from "lucide-react";
 import { useRef } from "react";
@@ -88,6 +89,8 @@ const Index = () => {
           </div>
         </div>
       </div>
+
+      <Testimonials />
 
       {/* CTA Section */}
       <div className="bg-secondary py-16">
