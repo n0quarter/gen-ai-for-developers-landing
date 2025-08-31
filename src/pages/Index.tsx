@@ -23,13 +23,13 @@ const Index = () => {
     },
     {
       title: "Part 2: Core Concepts",
-      description: "Prompt engineering techniques and Cursor AI setup",
+      description: "Advanced prompting techniques and advanced Cursor Rules configuration",
       duration: "80 minutes",
       icon: <Code className="h-6 w-6 text-primary" />,
     },
     {
       title: "Part 3: Practice and Wrap-up",
-      description: "Real-world workflow demonstrations and building a simple app with AI",
+      description: "AI assisted development workflows and building apps with agentic AI coding techniques",
       duration: "60 minutes",
       icon: <Users className="h-6 w-6 text-primary" />,
     },
@@ -38,13 +38,13 @@ const Index = () => {
   const block2Activities = [
     {
       title: "Part 1: Recap and Coding with Cursor",
-      description: "Block 1 recap and advanced Cursor features exploration",
+      description: "Block 1 recap and advanced Cursor Rules/Claude code sub-agents exploration",
       duration: "80 minutes",
       icon: <Brain className="h-6 w-6 text-primary" />,
     },
     {
       title: "Part 2: Advanced AI-augmented Development",
-      description: "Building a simple app and exploring the AI development landscape (tool selection strategy)",
+      description: "Building enterprise-grade apps with Cursor Agenric AI and exploring AI coding tools landscape",
       duration: "80 minutes",
       icon: <Code className="h-6 w-6 text-primary" />,
     },
@@ -94,7 +94,7 @@ const Index = () => {
                   <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
                   <div>
                     <span className="text-white font-medium">Start Your AI Journey</span>
-                    <p className="text-gray-300 mt-1">Book Block 1 to master the fundamentals of AI-assisted development</p>
+                    <p className="text-gray-300 mt-1">Book Block 1 to master the fundamentals of AI assisted development and agentic AI coding</p>
                   </div>
                 </div>
 
@@ -102,7 +102,7 @@ const Index = () => {
                   <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
                   <div>
                     <span className="text-white font-medium">Advanced Skills</span>
-                    <p className="text-gray-300 mt-1">Book Block 2 to elevate your existing AI development practices</p>
+                    <p className="text-gray-300 mt-1">Book Block 2 to master advanced Cursor Rules and Claude code sub-agents for enterprise codebases</p>
                   </div>
                 </div>
 

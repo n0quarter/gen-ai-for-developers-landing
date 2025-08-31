@@ -9,12 +9,12 @@ const benefits = [
   },
   {
     title: "Modern AI Development Stack",
-    description: "Deep dive into GitHub Copilot, ChatGPT-4, Claude, Gemini, and more cutting-edge AI development tools",
+    description: "Deep dive into GitHub Copilot, Claude code generation, GPT-5, Gemini, and cutting-edge agentic AI coding tools",
     icon: <Zap className="h-6 w-6 text-primary" />,
   },
   {
     title: "IDE Mastery",
-    description: "Learn to leverage AI in Cursor, VSCode, JetBrains Suite with custom tools and integrations",
+    description: "Master advanced Cursor Rules, AI assisted development in VSCode, JetBrains Suite with custom tools and integrations",
     icon: <Code className="h-6 w-6 text-primary" />,
   },
   {
@@ -24,12 +24,12 @@ const benefits = [
   },
   {
     title: "Custom Tools Development",
-    description: "Create and implement your own AI-powered development tools and workflows",
+    description: "During workshop we will implement custom AI-powered development workflows for your team",
     icon: <Sparkles className="h-6 w-6 text-primary" />,
   },
   {
     title: "Future-Ready Skills",
-    description: "Techniques for AI-assisted technology learning and maintaining best practices in your development workflow",
+    description: "Stay up to date with emerging AI development patterns and evolving best practices for sustainable AI-enhanced workflows",
     icon: <Rocket className="h-6 w-6 text-primary" />,
   },
 ];
