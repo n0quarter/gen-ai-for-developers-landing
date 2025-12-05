@@ -4,27 +4,27 @@ import { Zap, Brain, Rocket, Code, Terminal, Sparkles } from "lucide-react";
 const benefits = [
   {
     title: "Advanced Prompting Techniques",
-    description: "Master Chain-of-Thought, Tree-of-Thought, and reflection-based prompting strategies",
+    description: "Learn the difference between vibe coding (bad) and AI assisted coding (good). Master Chain-of-Thought, Tree-of-Thought, and reflection-based prompting",
     icon: <Brain className="h-6 w-6 text-primary" />,
   },
   {
-    title: "Modern AI Development Stack",
-    description: "Deep dive into GitHub Copilot, Claude code generation, GPT-5, Gemini, and cutting-edge agentic AI coding tools",
+    title: "Context Engineering",
+    description: "Master techniques for steering coding agents and thinking models. Deep dive into Claude Code, Cursor coding agents, GPT-5.1, Gemini, Sonnet 4.5, and cutting-edge agentic AI development tools",
     icon: <Zap className="h-6 w-6 text-primary" />,
   },
   {
     title: "IDE Mastery",
-    description: "Master advanced Cursor Rules, AI assisted development in VSCode, JetBrains Suite with custom tools and integrations",
+    description: "Master advanced Cursor Rules and Claude.md files, plus AI assisted development in Claude Code/Cursor/JetBrains IDEs",
     icon: <Code className="h-6 w-6 text-primary" />,
   },
   {
     title: "Best Practices & Anti-patterns",
-    description: "Understand context optimization, fine-tuning, and how to avoid common AI development pitfalls",
+    description: "Understand context engineering, guardrails for coding agents, and how to avoid common AI development pitfalls",
     icon: <Terminal className="h-6 w-6 text-primary" />,
   },
   {
     title: "Custom Tools Development",
-    description: "During workshop we will implement custom AI-powered development workflows for your team",
+    description: "During workshop we will implement custom tools for AI assisted development",
     icon: <Sparkles className="h-6 w-6 text-primary" />,
   },
   {

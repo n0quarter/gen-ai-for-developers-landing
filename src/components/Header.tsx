@@ -11,7 +11,7 @@ const heroContent = {
   //   role: "Workshop by",
   // },
   title: "Generative AI for Developers",
-  description: "Master AI assisted development with advanced Cursor Rules, Claude Code, and agentic AI coding techniques. Learn to build Claude code sub-agents for enterprise codebases using GitHub Copilot, ChatGPT, and Gemini. Discover advanced prompting, IDE integrations, and best practices for AI-powered development workflows.",
+  description: "Master AI assisted development with coding agents, advanced Cursor Rules, Claude Code skills and sub-agents. Set up enterprise-grade coding agents using Cursor and Claude Code. Discover advanced prompting, thinking models, IDE integrations, and best practices for modern AI-powered development workflows.",
   cta: {
     text: "Contact for Team Pricing",
   },

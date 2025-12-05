@@ -17,19 +17,19 @@ const Index = () => {
   const block1Activities = [
     {
       title: "Part 1: Introduction and Fundamentals",
-      description: "AI landscape, core concepts, and interactive AI interviews",
+      description: "AI landscape, coding agents, core concepts, and interactive AI interviews",
       duration: "80 minutes",
       icon: <Brain className="h-6 w-6 text-primary" />,
     },
     {
-      title: "Part 2: Core Concepts",
-      description: "Advanced prompting techniques and advanced Cursor Rules configuration",
+      title: "Part 2: Core Concepts - hands on",
+      description: "Using advanced prompting techniques, Cursor Rules configuration and AI assisted project planning",
       duration: "80 minutes",
       icon: <Code className="h-6 w-6 text-primary" />,
     },
     {
       title: "Part 3: Practice and Wrap-up",
-      description: "AI assisted development workflows and building apps with agentic AI coding techniques",
+      description: "AI assisted development workflows and building apps with coding agents and agentic AI techniques",
       duration: "60 minutes",
       icon: <Users className="h-6 w-6 text-primary" />,
     },
@@ -37,14 +37,14 @@ const Index = () => {
 
   const block2Activities = [
     {
-      title: "Part 1: Recap and Coding with Cursor",
-      description: "Block 1 recap and advanced Cursor Rules/Claude code sub-agents exploration",
+      title: "Part 1: Recap and Coding",
+      description: "Block 1 recap and advanced Cursor Rules/Claude Code skills and sub-agents exploration",
       duration: "80 minutes",
       icon: <Brain className="h-6 w-6 text-primary" />,
     },
     {
       title: "Part 2: Advanced AI-augmented Development",
-      description: "Building enterprise-grade apps with Cursor Agenric AI and exploring AI coding tools landscape",
+      description: "Building enterprise-grade apps with Cursor and Claude Code coding agents, and designing Claude Code skills/commands and sub-agents",
       duration: "80 minutes",
       icon: <Code className="h-6 w-6 text-primary" />,
     },
@@ -65,13 +65,13 @@ const Index = () => {
           <h2 className="text-3xl font-bold text-center mb-12">Workshop Structure</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 px-4">
             <CourseBlock
-              title="Block 1: AI Tools and Application Development"
-              focus="Master modern AI development tools and fundamental concepts through hands-on practice - 4 hours"
+              title="Block 1: AI Tools, Coding Agents, and AI Assisted Coding"
+              focus="4 hours"
               activities={block1Activities}
             />
             <CourseBlock
-              title="Block 2: Advanced Applications and Learning"
-              focus="Implement sophisticated AI techniques and team collaboration patterns - 4 hours"
+              title="Block 2: Advanced Agentic Development and Team Workflows"
+              focus="4 hours"
               activities={block2Activities}
             />
           </div>
@@ -94,7 +94,7 @@ const Index = () => {
                   <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
                   <div>
                     <span className="text-white font-medium">Start Your AI Journey</span>
-                    <p className="text-gray-300 mt-1">Book Block 1 to master the fundamentals of AI assisted development and agentic AI coding</p>
+                    <p className="text-gray-300 mt-1">Book Block 1 to master the fundamentals of AI assisted development, coding agents, and agentic AI coding</p>
                   </div>
                 </div>
 
@@ -102,7 +102,7 @@ const Index = () => {
                   <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
                   <div>
                     <span className="text-white font-medium">Advanced Skills</span>
-                    <p className="text-gray-300 mt-1">Book Block 2 to master advanced Cursor Rules and Claude code sub-agents for enterprise codebases</p>
+                    <p className="text-gray-300 mt-1">Book Block 2 to master advanced Cursor Rules and Claude Code skills and sub-agents for enterprise codebases</p>
                   </div>
                 </div>
 
@@ -147,10 +147,10 @@ const Index = () => {
               <h2 className="text-4xl font-bold animate-fade-up">About the Author</h2>
               <div className="space-y-6">
                 <p className="text-lg text-gray-600 animate-fade-up [animation-delay:200ms] leading-relaxed">
-                  Viktor Shcherban is an experienced AI developer and enthusiast who has been at the forefront of AI-powered development since 2021. As an early adopter of AI development tools, he has extensive experience with GitHub Copilot, ChatGPT, Claude, and other AI assistants since their technical preview phases.
+                  Viktor Shcherban is an experienced AI developer and enthusiast at the forefront of agentic AI development since 2021. As an early adopter of coding agents and thinking models, he has extensive hands-on experience with Claude Code, Cursor, ChatGPT, Gemini, and Sonnet 4.5 since their early preview phases.
                 </p>
                 <p className="text-lg text-gray-600 animate-fade-up [animation-delay:400ms] leading-relaxed">
-                  With over <span className="text-primary font-semibold">2,800 hours of AI-assisted development</span>, Viktor combines deep technical expertise with real-world implementation experience. As an AI consultant and former startup CTO, he has architected and deployed AI solutions across various industries. His development workflow is enhanced by custom AI-powered developer tools he created, which streamline common tasks and optimize AI interactions. A regular speaker at Berlin's AI conferences and meetups, Viktor shares insights from his work in both enterprise AI integration and startup innovation.
+                  With over <span className="text-primary font-semibold">3,500 hours of AI assisted development</span>, Viktor combines deep technical expertise with real-world implementation experience. As an AI consultant and former startup CTO, he has architected and deployed AI solutions across various industries, with a strong focus on coding agents in enterprise codebases. His workflow is enhanced by custom AI-powered developer tools and agentic patterns he created, including Cursor Rules and Claude.md files that streamline common tasks and optimize AI interactions. A regular speaker at Berlin's AI conferences and meetups, Viktor shares insights from his work in both enterprise AI integration and startup innovation.
                 </p>
               </div>
               <div className="pt-4 animate-fade-up [animation-delay:600ms]">
