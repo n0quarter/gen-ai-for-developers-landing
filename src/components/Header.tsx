@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { RocketIcon, UserIcon } from "lucide-react";
+import { RocketIcon } from "lucide-react";
 
 interface HeroProps {
   onContactClick: () => void;
@@ -11,7 +11,7 @@ const heroContent = {
   //   role: "Workshop by",
   // },
   title: "Generative AI for Developers",
-  description: "Master AI assisted development with coding agents, advanced Cursor Rules, Claude Code skills and sub-agents. Set up enterprise-grade coding agents using Cursor and Claude Code. Discover advanced prompting, thinking models, IDE integrations, and best practices for modern AI-powered development workflows.",
+  description: "Master agentic AI development with coding agents like Claude Code, Codex, and Cursor. Set up AI-assisted workflows with skills, sub-agents, and custom AI tools built during the workshop.",
   cta: {
     text: "Contact for Team Pricing",
   },

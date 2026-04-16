@@ -1,11 +1,11 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Clock, Users, Code, Brain } from "lucide-react";
 
 interface Activity {
   title: string;
-  description: string;
   duration: string;
   icon: JSX.Element;
+  topics: string[];
+  handsOn?: string;
 }
 
 interface CourseBlockProps {
@@ -24,12 +24,23 @@ export const CourseBlock = ({ title, focus, activities }: CourseBlockProps) => {
       <CardContent className="flex-1">
         <div className="space-y-4">
           {activities.map((activity, index) => (
-            <div key={index} className="flex items-start space-x-4 p-4 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors duration-200">
+            <div key={index} className="flex items-start space-x-4 p-4 rounded-lg bg-gray-50">
               <div className="flex-shrink-0">{activity.icon}</div>
-              <div>
-                <h4 className="font-medium">{activity.title}</h4>
-                <p className="text-sm text-gray-600">{activity.description}</p>
-                <p className="text-sm text-primary mt-1">{activity.duration}</p>
+              <div className="min-w-0 flex-1">
+                <div className="flex items-start justify-between gap-4">
+                  <h4 className="min-w-0 flex-1 font-medium">{activity.title}</h4>
+                  <p className="shrink-0 whitespace-nowrap text-sm text-primary">{activity.duration}</p>
+                </div>
+                <ul className="mt-3 space-y-1 text-sm text-gray-600 list-disc pl-5">
+                  {activity.topics.map((topic) => (
+                    <li key={topic}>{topic}</li>
+                  ))}
+                </ul>
+                {activity.handsOn && (
+                  <p className="mt-3 text-sm text-gray-600">
+                    <span className="font-semibold text-primary">Hands-on:</span> {activity.handsOn}
+                  </p>
+                )}
               </div>
             </div>
           ))}
